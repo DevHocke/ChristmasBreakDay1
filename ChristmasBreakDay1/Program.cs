@@ -22,7 +22,10 @@ namespace ChristmasBreakDay1
             //int numb5 = 5;
 
             //Console.WriteLine($"{one} {numb1}");
+            //-----------------------------------------------------------------
 
+            DateTime now = DateTime.Now;
+            Console.WriteLine($"Welcome to todays meeting {now}");
 
         }
     }

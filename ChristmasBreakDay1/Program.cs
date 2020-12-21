@@ -22,10 +22,33 @@ namespace ChristmasBreakDay1
             //int numb5 = 5;
 
             //Console.WriteLine($"{one} {numb1}");
-            //-----------------------------------------------------------------
+            //-------------------------------------------------------------------
 
-            DateTime now = DateTime.Now;
-            Console.WriteLine($"Welcome to todays meeting {now}");
+            //DateTime now = DateTime.Now;
+            //Console.WriteLine($"Welcome to todays meeting {now}");
+
+            //-------------------------------------------------------------------
+
+            //Console.WriteLine("WriteLine utför ett radbyte 1");
+            //Console.WriteLine("WriteLine utför ett radbyte 2");
+            //Console.Write("Write utför inte ett radbyte 1 ");
+            //Console.Write("Write utför inte ett radbyte 2");
+
+            //-------------------------------------------------------------------
+
+            //char letter = 'B';
+            //Console.WriteLine(letter);
+            //-------------------------------------------------------------------
+
+            string name = "Håkan Eriksson";
+            int age = 44;
+            int height = 187;
+            string city = "Uppsala";
+            string hobbies = "Gaming, moto-x, roadracing";
+            string superPowers = "Kindness and persistent";
+
+            Console.WriteLine($"{name} is {age} years old. He is {height} cm´s tall and lives in {city}. \n{name}´s hobbies are {hobbies}and his super powers are {superPowers}");
+
 
         }
     }
